@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Match'em All</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+  </head>
+
+  <body>
+    <h1 id="mainHeader">Match'em All<h1>
+
+    <div id="scoreBoard">
+      <h4 id="scoreHeading">Score Board</h4>
+      <div  class="score">
+        Your Rating :
+        <img id="firstStar" src="images/star.png" alt="Star">
+        <img id="secondStar" src="images/star.png" alt="Star">
+        <img id="thirdStar" src="images/star.png" alt="Star">
+      </div>
+
+      <button id="startOver" class"score">Start Over</button>
+
+      <div class="score" id="moves">
+        Moves : 0
+      </div>
+
+      <div class="score" id="timer">
+        Time : 0 seconds
+      </div>
+    </div>
+
+    <div id="gameBoard">
+      <!--Each Card in the Game Board-->
+      <!--data-pairings for checking pairs-->
+      <div class="gameCard" data-pairings="alpha">
+        <img class="front" src="images/alpha.jpg" alt="Alpha">
+        <img class="back" src="images/back.png" alt="Flip Me">
+      </div>
+
+      <div class="gameCard" data-pairings="alpha">
+        <img class="front" src="images/alpha.jpg" alt="Alpha">
+        <img class="back" src="images/back.png" alt="Flip Me">
+      </div>
+
+      <div class="gameCard" data-pairings="bravo">
+        <img class="front" src="images/bravo.jpg" alt="Bravo">
+        <img class="back" src="images/back.png" alt="Flip Me">
+      </div>
+
+      <div class="gameCard" data-pairings="bravo">
+        <img class="front" src="images/bravo.jpg" alt="Bravo">
+        <img class="back" src="images/back.png" alt="Flip Me">
+      </div>
+
+      <div class="gameCard" data-pairings="charlie">
+        <img class="front" src="images/charlie.jpg" alt="Charlie">
+        <img class="back" src="images/back.png" alt="Flip Me">
+      </div>
+
+      <div class="gameCard" data-pairings="charlie">
+        <img class="front" src="images/charlie.jpg" alt="Charlie">
+        <img class="back" src="images/back.png" alt="Flip Me">
+      </div>
+
+      <div class="gameCard" data-pairings="delta">
+        <img class="front" src="images/delta.jpg" alt="Delta">
+        <img class="back" src="images/back.png" alt="Flip Me">
+      </div>
+
+      <div class="gameCard" data-pairings="delta">
+        <img class="front" src="images/delta.jpg" alt="Delta">
+        <img class="back" src="images/back.png" alt="Flip Me">
+      </div>
+
+      <div class="gameCard" data-pairings="echo">
+        <img class="front" src="images/echo.jpg" alt="Echo">
+        <img class="back" src="images/back.png" alt="Flip Me">
+      </div>
+
+      <div class="gameCard" data-pairings="echo">
+        <img class="front" src="images/echo.jpg" alt="Echo">
+        <img class="back" src="images/back.png" alt="Flip Me">
+      </div>
+
+      <div class="gameCard" data-pairings="foxtrot">
+        <img class="front" src="images/foxtrot.jpg" alt="Foxtrot">
+        <img class="back" src="images/back.png" alt="Flip Me">
+      </div>
+
+      <div class="gameCard" data-pairings="foxtrot">
+        <img class="front" src="images/foxtrot.jpg" alt="Foxtrot">
+        <img class="back" src="images/back.png" alt="Flip Me">
+      </div>
+
+      <div class="gameCard" data-pairings="victor">
+        <img class="front" src="images/victor.jpg" alt="Victor">
+        <img class="back" src="images/back.png" alt="Flip Me">
+      </div>
+
+      <div class="gameCard" data-pairings="victor">
+        <img class="front" src="images/victor.jpg" alt="Victor">
+        <img class="back" src="images/back.png" alt="Flip Me">
+      </div>
+
+      <div class="gameCard" data-pairings="xray">
+        <img class="front" src="images/xray.jpg" alt="X-ray">
+        <img class="back" src="images/back.png" alt="Flip Me">
+      </div>
+
+      <div class="gameCard" data-pairings="xray">
+        <img class="front" src="images/xray.jpg" alt="X-ray">
+        <img class="back" src="images/back.png" alt="Flip Me">
+      </div>
+      <!--End of Game Cards-->
+    </div>
+
+    <script src="scripts/scripts.js"></script>
+  </body>
+
+<!--Letter images from shutterstock.com -->
+<!--Star Image from http://www.clipartpanda.com/categories/yellow-star-border-clip-art-->
+</html>
