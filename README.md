@@ -12,6 +12,9 @@ This basic game allows players to flip cards and look for matches of 8 different
 This game plays straight out of the web browser of your choice.
 Simply open up the index.html file into which web browser you choose and start playing.
 
+You can also play the game live here.
+https://carpecorona.github.io/Memory-Game/
+
 <br>
 
 ## Contributing
