@@ -125,8 +125,8 @@ button:hover {
   background: limegreen;
 }
 
-/**.gameCard.flipped {
- transform: rotateY(180deg); **/
+.gameCard.flipped {
+  transform: rotateY(180deg); 
 }
 
 .front, .back {
