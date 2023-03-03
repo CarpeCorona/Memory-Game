@@ -53,7 +53,7 @@ function flipCard() {
   //runs functions to compare firstCard and secondCard for match and adds increase move score
   else {
     secondCard = this;
-    secondCardChild = this.secondElementChild;
+    secondCardChild = this.firstElementChild[1];
     checkIfMatched();
     movesCount();
   }
